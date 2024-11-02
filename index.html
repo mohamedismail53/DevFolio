@@ -11,9 +11,18 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body>
+  <body
+    class="position-relative"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-scroll"
+    data-bs-offset="56"
+    tabindex="0"
+  >
     <!-- =========== Navbar =========== -->
-    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+    <nav
+      id="navbar-scroll"
+      class="navbar navbar-expand-lg bg-black navbar-dark fixed-top"
+    >
       <div class="container">
         <a class="navbar-brand fs-4 fw-bold" href="./index.html">DevFolio</a>
         <button
@@ -32,25 +41,29 @@
             <li class="nav-item">
               <a
                 class="nav-link text-decoration-underline link-offset-3 text-uppercase"
-                href="#"
+                href="#home"
                 >home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link link-offset-3 text-uppercase" href="#"
+              <a class="nav-link link-offset-3 text-uppercase" href="#about"
                 >about</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link link-offset-3 text-uppercase" href="#"
+              <a class="nav-link link-offset-3 text-uppercase" href="#services"
                 >services</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link link-offset-3 text-uppercase" href="#">work</a>
+              <a class="nav-link link-offset-3 text-uppercase" href="#portfolio"
+                >work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link link-offset-3 text-uppercase" href="#">blog</a>
+              <a class="nav-link link-offset-3 text-uppercase" href="#blog"
+                >blog</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -104,7 +117,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-offset-3 text-uppercase" href="#"
+              <a class="nav-link link-offset-3 text-uppercase" href="#contact"
                 >contact</a
               >
             </li>
@@ -115,7 +128,7 @@
     <!-- =========== End Navbar ===========   -->
 
     <!-- =========== Header =========== -->
-    <header class="header">
+    <header class="header" id="home">
       <div class="layer">
         <div class="content">
           <h2>I am Morgan Freeman</h2>
